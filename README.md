@@ -166,7 +166,3 @@ In Home view, all the views button will be available. User will land on specific
 - [ ] Insights into business terminologies and their implications on data analysis
 
 This project has not only enhanced my technical skills but also provided real-world exposure to project management and business analysis.
-
-Feel free to explore the live dashboard and provide your feedback.
-
-#PowerBI #DataAnalytics #BusinessIntelligence #Dashboard #DataVisualization #ProjectManagement #SQL #DAX #AtliQHardware
