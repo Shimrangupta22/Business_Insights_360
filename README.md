@@ -144,7 +144,7 @@ Understanding the available data is crucial before analysis. Get a good grasp of
 ## Screenshots
 
 ### Home Page
-![Home Page](home_page.pdf)
+![Home Page](https://github.com/Shimrangupta22/Business_Insights_360/blob/main/home%20_page.pdf)
 
 ### Finance View
 ![Finance View](Finance_View.pdf)
