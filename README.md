@@ -2,55 +2,55 @@
 
 ## Project Overview
 
-AtliQ Hardware is growing rapidly in the recent years, and they have decided to implement the data analytics using PowerBi in their company for the first time to surpass their competitors in the market and to make data driven decisions. This project is hoped to give answers to the questions of stakeholder in terms all the aspects like finance, sales, marketing and supply chain.
+AtliQ Hardware is growing rapidly in recent years, and they have decided to implement data analytics using PowerBI in their company for the first time to surpass their competitors in the market and to make data-driven decisions. This project aims to provide answers to stakeholders' questions across all aspects, including finance, sales, marketing, and supply chain.
 
 [Live Report Link](https://app.powerbi.com/view?r=eyJrIjoiYzc0MjNlNGEtMzU2Mi00YjM1LWIwMzMtZWRlYWE3ZjQ1MzlhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
-## Tech stacks
+## Tech Stacks
 
 - SQL
-- PowerBi Desktop
+- PowerBI Desktop
 - Excel
 - DAX language
-- DAX studio (for optimizing the report)
+- DAX Studio (for optimizing the report)
 - Project charter file
 
-## PowerBI techniques Learnt
+## PowerBI Techniques Learned
 
-- What are all the questions should be asked before staring the project
+- Identifying the questions to ask before starting the project
 - Creating calculated columns
-- creating measure using DAX language
+- Creating measures using DAX language
 - Data modeling
-- Using Bookmarks to switch between two visuals
+- Using bookmarks to switch between two visuals
 - Page navigation with buttons
 - Using divide function to prevent zero division errors
-- creating date table using m language
-- Dynamic titles based on the applied filters
+- Creating a date table using M language
+- Dynamic titles based on applied filters
 - Using KPI indicators
-- Conditional formatting the values in visuals using icons or background color
+- Conditional formatting of values in visuals using icons or background color
 - Data validation techniques
-- PowerBi services
-- Publishing reports to PowerBi services
-- Setting up personal gateway to set up the auto refresh of data
-- PowerBi App creation
-- Collaboration, workspace, access permissions in PowerBi services
+- PowerBI services
+- Publishing reports to PowerBI services
+- Setting up a personal gateway for auto-refresh of data
+- PowerBI App creation
+- Collaboration, workspace, and access permissions in PowerBI services
 - And more 😅
 
-## GitHub 
+## GitHub
 
-- Uploading Large size files using GitHub LFS
-- Tracking the particular type of file extensions for LFS
+- Uploading large size files using GitHub LFS
+- Tracking specific file extensions for LFS
 
-## Business related terms
+## Business-Related Terms
 
 - Gross price
 - Pre-invoice deductions
-- Post-Invoice deductions
-- Net Invoice sale
-- Gross Margin
+- Post-invoice deductions
+- Net invoice sale
+- Gross margin
 - Net sales
 - Net profit
-- COGC - cost of goods sold
+- COGS - cost of goods sold
 - YTD - Year to Date
 - YTG - Year to Go
 - Direct
@@ -58,123 +58,119 @@ AtliQ Hardware is growing rapidly in the recent years, and they have decided to 
 - Distributors
 - Consumer
 
-## Company’s back ground
+## Company Background
 
-AltiQ hardware is a company which has grown vastly in the recent years, and opened business all over the globe. It is a company which sells, computer and computer accessories through three mediums/channel
+AtliQ Hardware is a company that has grown significantly in recent years, opening businesses globally. It sells computers and computer accessories through three channels:
 
 - Retailers
 - Direct
 - Distributors
 
-Recently the company has faced a unforeseen loss by opening store in America based on the surveys, intuition and some excel analysis and also the company’s competitors has handful of analytics team to perform analysis and make data driven decision. So, the AltiQ hardware has no other option other than building their analytics team for data driven insights and decisions in the future to survive better in the industry. 
+Recently, the company faced an unforeseen loss by opening a store in America based on surveys, intuition, and some Excel analysis. Additionally, the company's competitors have analytics teams to perform analysis and make data-driven decisions. Thus, AtliQ Hardware has no other option but to build their analytics team for data-driven insights and decisions in the future to survive better in the industry.
 
-Project kick off session, where you should get clear of for what and why this project and all other questions you have with regards to the project
+## Project Kickoff Session
 
-### Questions to ask before starting with dashboard
+Before starting the dashboard, it's essential to get clarity on the following questions:
 
-- What is the objective of building this PowerBi dashboard?
-- In what terms the success of this project will be measured?
-- What will be time dead-line of the project?
-- do the stakeholders expecting pre-view before the actual release?
-- What are all the hopes stakeholders have out of this project?
-- what are all fears the stakeholder have in terms of building this dashboard?
-- Who are all will be using this dashboard and for what purpose?
-- what are all expectation the stakeholders have, by the completion of this project?
+- What is the objective of building this PowerBI dashboard?
+- How will the success of this project be measured?
+- What is the project deadline?
+- Do the stakeholders expect a preview before the actual release?
+- What are the stakeholders' hopes for this project?
+- What are the stakeholders' fears regarding building this dashboard?
+- Who will be using this dashboard and for what purpose?
+- What are the stakeholders' expectations by the project's completion?
 - What can go wrong while building this project?
-- what are all the resources/ data needed to build this dashboard?
-- is there any inputs from stakeholders in terms of design and views of the dashboard?
+- What resources/data are needed to build this dashboard?
+- Are there any design and view inputs from stakeholders?
 
-After the project kick off meetings, the data engineering team has given the data as per the request of data analytics team, let’s explore them.
+After the project kickoff meetings, the data engineering team provided the necessary data for the data analytics team. Let's explore them.
 
-### Dataset **Understanding.**
+### Dataset Understanding
 
-Understanding what data is available will be more helpful while doing analysis. before jumping on to the analysis get good understanding of what are data available.
+Understanding the available data is crucial before analysis. Get a good grasp of what data is available.
 
-Dimension table : It will have the static data like details of customer and products
+- **Dimension Table**: Static data like customer and product details
+- **Fact Table**: Data about transactions
 
-Fact table : It will have the data about the transactions  
+#### gdb041:
 
-- gdb041:
-    - dim_customer
-        - **27** distinct markets (ex India, USA, spain)
-        - **75** distinct customers thorough out the market
-        - **2** types of platforms
-            - Brick & Motors - Physical/offline store
-            - E-commerce - Online Store (Amazon, flipkart)
-        - Three channels
-            - Retailer
-            - Direct
-            - Distributors
-    - dim_market
-        - **27** distinct markets (ex India, USA, spain)
-        - 7 sub-zones
-        - 4 regions
-            - APAC
-            - EU
-            - nan
-            - LATAM
-    - dim_product
-        - Divisions
-            - P & A
-                - Peripherals
-                - Accessories
-            - PC
-                - Notebook
-                - Desktop
-            - N & S
-                - Networking
-                - Storage
-        - There are 14 different categories, Like Internal HDD, keyboard
-        - There are different variants available for the same product
-    - fact_forecast_monthly
-        - This table is used to forecast the customer’s need in advance, which can help in
-            - Higher customer satisfaction
-            - Reduced cost in warehouses for storage purpose
-        - The table is denormalized by data engineering team, as it is a data warehouse which is aimed to be used for analytical work.
-        - All the date of the month will be replaced by the start date of the month
-        - It will have all the column names and in the end it will have the forecast quantity need of the customer
-    - fact_sales_monthly
-        - This table is more or less is same as fact_forecase_monthly table, but the last column has the value of sold quantity instead of forecast value.
-- gdb056
-    - freight_cost
-        - This table has details of travel cost and other cost for each market with fiscal year
-    - gross_price
-        - Has the details of gross prices with product code
-    - manufacturing_cost
-        - Has the details of manufacturing cost with product code with year
-    - Pre_invoice_dedutions
-        - Has the details of pre invoice deductions percentage for each cutomer with year
-    - Post_invoice_deductions
-        - Post invoice deductions and other deductions details
+- **dim_customer**:
+  - 27 distinct markets (e.g., India, USA, Spain)
+  - 75 distinct customers throughout the market
+  - 2 types of platforms: Brick & Mortar (Physical/offline store) and E-commerce (Online Store like Amazon, Flipkart)
+  - Three channels: Retailer, Direct, Distributors
 
-## Importing data into PowerBi
+- **dim_market**:
+  - 27 distinct markets (e.g., India, USA, Spain)
+  - 7 sub-zones
+  - 4 regions: APAC, EU, NAN, LATAM
 
-- As the database is MySQL in this project, we need to import the datasets from Mysql database to PowerBi by providing the Database access credential
+- **dim_product**:
+  - Divisions: P&A (Peripherals, Accessories), PC (Notebook, Desktop), N&S (Networking, Storage)
+  - 14 different categories, e.g., Internal HDD, keyboard
+  - Different variants available for the same product
 
-## Data Model
+- **fact_forecast_monthly**:
+  - Used to forecast customer needs in advance, leading to higher customer satisfaction and reduced storage costs
+  - Denormalized for analytical work
+  - All dates of the month replaced by the start date of the month
+  - Contains forecast quantity needs
 
-- In this project, we have followed Snowfall data modeling method.
+- **fact_sales_monthly**:
+  - Similar to fact_forecast_monthly but with sold quantity instead of forecast value
 
-<img src="https://github.com/Shimrangupta22/Business_Insights_360/blob/main/Data%20Modeling.png" class="center">
+#### gdb056:
 
-### Dashboard designing
+- **freight_cost**:
+  - Details of travel and other costs for each market with fiscal year
 
-Based on the mock ups received as requirement, the team will start designing the visuals and create measure as and when required
+- **gross_price**:
+  - Details of gross prices with product code
 
-## Home view
+- **manufacturing_cost**:
+  - Details of manufacturing costs with product code and year
 
-<img src="https://github.com/Shimrangupta22/Business_Insights_360/blob/main/Data%20Modeling.png" class="center">
+- **pre_invoice_deductions**:
+  - Details of pre-invoice deductions percentage for each customer with year
 
-In Home view, all the views button will be available. User will land on specific view page by clicking the button 
+- **post_invoice_deductions**:
+  - Post-invoice deductions and other deduction details
 
-- Info 
-- Finance View
-- Sales View
-- Marketing View
-- Supply chain View
-- Executive View
-- Support
+## Importing Data into PowerBI
 
-## Project Outcome
+- As the database is MySQL in this project, import the datasets from the MySQL database to PowerBI by providing the database access credentials.
 
-By using this report, decisions can be taken based on the data. Further it will help in answering n number of why questions based on the situations.
+## Screenshots
+
+### Home Page
+![Home Page](home_page.pdf)
+
+### Finance View
+![Finance View](Finance_View.pdf)
+
+### Sales View
+![Sales View](Sales_View.pdf)
+
+### Marketing View
+![Marketing View](Marketing_View.pdf)
+
+### Supply Chain View
+![Supply Chain View](Supply_Chain_View.pdf)
+
+### Executive View
+![Executive View](Executive_View.pdf)
+
+## Project Learnings and Reflections
+
+- [ ] How to identify project objectives and success criteria
+- [ ] Techniques for effective data modeling and DAX calculations
+- [ ] Best practices for creating interactive and insightful PowerBI dashboards
+- [ ] Strategies for data validation and optimization
+- [ ] Insights into business terminologies and their implications on data analysis
+
+This project has not only enhanced my technical skills but also provided real-world exposure to project management and business analysis.
+
+Feel free to explore the live dashboard and provide your feedback.
+
+#PowerBI #DataAnalytics #BusinessIntelligence #Dashboard #DataVisualization #ProjectManagement #SQL #DAX #AtliQHardware
