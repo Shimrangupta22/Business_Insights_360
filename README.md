@@ -177,7 +177,7 @@ In Home view, all the views button will be available. User will land on specific
 
 ## Info Page
 
-_[Info Page](https://github.com/Shimrangupta22/Business_Insights_360/blob/main/home%20_page.pdf)_ 
+<img src="https://github.com/Shimrangupta22/Business_Insights_360/blob/main/home%20_page.pdf" class="center">
 
 ## Finance View
 
