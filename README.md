@@ -141,25 +141,21 @@ Understanding the available data is crucial before analysis. Get a good grasp of
 
 - As the database is MySQL in this project, import the datasets from the MySQL database to PowerBI by providing the database access credentials.
 
-## Screenshots
+### Dashboard designing
 
-### Home Page
-![Home Page](home _page.pdf)
+Based on the mock ups received as requirement, the team will start designing the visuals and create measure as and when required
 
-### Finance View
-![Finance View](Finance_View.pdf)
+## Home view
 
-### Sales View
-![Sales View](Sales_View.pdf)
+In Home view, all the views button will be available. User will land on specific view page by clicking the button 
 
-### Marketing View
-![Marketing View](Marketing_View.pdf)
-
-### Supply Chain View
-![Supply Chain View](Supply Chain View.pdf)
-
-### Executive View
-![Executive View](Executive View.pdf)
+- Info
+- Finance View
+- Sales View
+- Marketing View
+- Supply chain View
+- Executive View
+- Support
 
 ## Project Learnings and Reflections
 
