@@ -153,12 +153,9 @@ Fact table : It will have the data about the transactions
 
 ## Data Model
 
-- Data modeling plays a vital role and is considered as the basement of report. All the visuals will be build upon the data model.
-- Poor data modeling affects the over all performance of the report.
-- Following Good practices of data modeling is must. Refer this page to get to know the good practices [Blog](https://addendanalytics.com/blog/data-modelling-best-practices/)
 - In this project, we have followed Snowfall data modeling method.
 
-<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/Shimrangupta22/Business_Insights_360/blob/main/Data%20Modeling.png" class="center">
 
 ### Dashboard designing
 
@@ -183,7 +180,7 @@ In Home view, all the views button will be available. User will land on specific
 
 ## Info Page
 
-![Info.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Info.gif)
+(https://github.com/Shimrangupta22/Business_Insights_360/blob/main/home%20_page.pdf)
 
 ## Finance View
 
