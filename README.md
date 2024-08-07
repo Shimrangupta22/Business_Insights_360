@@ -163,48 +163,17 @@ Based on the mock ups received as requirement, the team will start designing the
 
 ## Home view
 
+<img src="https://github.com/Shimrangupta22/Business_Insights_360/blob/main/Data%20Modeling.png" class="center">
+
 In Home view, all the views button will be available. User will land on specific view page by clicking the button 
 
-- Info
+- Info 
 - Finance View
 - Sales View
 - Marketing View
 - Supply chain View
 - Executive View
-- Products
 - Support
-
-
-## Info Page
-
-- This is the home page.
-<img src="https://github.com/Shimrangupta22/Business_Insights_360/blob/main/home%20_page.pdf" class="center">
-
-## Finance View
-
-![Finace.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Finace.gif)
-## Sales View
-
-![Sales.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Sales.gif)
-
-## Marketing View
-
-![Marketing.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Marketing.gif)
-
-## Supply chain View
-
-![Supply chain.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/supply%20chain.gif)
-
-## Executive View
-
-![Executive.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Executive.gif)
-
-## Products
-
-![Products](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Products%20View.gif)
-
-you can find the full report file here : [Report](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix)
-
 
 ## Project Outcome
 
