@@ -144,7 +144,7 @@ Understanding the available data is crucial before analysis. Get a good grasp of
 ## Screenshots
 
 ### Home Page
-![Home Page](https://github.com/Shimrangupta22/Business_Insights_360/blob/main/home%20_page.pdf)
+![Home Page](home _page.pdf)
 
 ### Finance View
 ![Finance View](Finance_View.pdf)
@@ -156,10 +156,10 @@ Understanding the available data is crucial before analysis. Get a good grasp of
 ![Marketing View](Marketing_View.pdf)
 
 ### Supply Chain View
-![Supply Chain View](Supply_Chain_View.pdf)
+![Supply Chain View](Supply Chain View.pdf)
 
 ### Executive View
-![Executive View](Executive_View.pdf)
+![Executive View](Executive View.pdf)
 
 ## Project Learnings and Reflections
 
