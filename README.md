@@ -159,6 +159,8 @@ In Home view, all the views button will be available. User will land on specific
 - Executive View
 - Support
 
+![Finance_View.pdf(https://github.com/Shimrangupta22/Business_Insights_360/blob/main/Finance_View.pdf)
+
 ## Project Learnings and Reflections
 
 - [ ] How to identify project objectives and success criteria
