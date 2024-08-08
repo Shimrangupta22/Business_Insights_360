@@ -36,12 +36,6 @@ I worked on this project by following the Codebasics PowerBi Course, Link to the
 - Setting up a personal gateway for auto-refresh of data
 - PowerBI App creation
 - Collaboration, workspace, and access permissions in PowerBI services
-- And more 😅
-
-## GitHub
-
-- Uploading large size files using GitHub LFS
-- Tracking specific file extensions for LFS
 
 ## Business-Related Terms
 
